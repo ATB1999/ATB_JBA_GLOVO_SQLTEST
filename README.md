@@ -5,7 +5,6 @@ Using RStudio and built-in tools that can be easily ran on any person directory;
 
 ![image](https://github.com/ATB1999/ATB_JBA_SQLTEST/assets/112544311/5a2e1194-4214-4e28-9909-3168b31c0ca7)
 
-
 1. RStudio is a one stop shop interface for data analysis: not only can we call SQL queries and retrieve data, but we can directly build plots, machine learning models and all steps of ETL pipelines without leaving the interface. Allso, we can replicate
 2. RStudio is a great troubleshooting tool: For complex SQL queries, R provides libraries translating with precision to SQL language, as it was built upon it. If the query is complex and you know R, you can do any SQL query.
 3. RStudio allows us to replicate production environments and querying, thanks to the seamless creations of in-process database management systems (DBMS) like DuckDB, which is the one we use in this specific setting.
@@ -17,6 +16,10 @@ In that sense, the approach is as follows:
 - The final output is always an SQL query, although R is used to replicate in a real database querying context and to help create the SQL query per se.
 
 With that, we always get to the point in which we have an SQL query; but thanks to the power of RStudio, we make sure to double check the outputs and create an in-process database management system (dbms) to replicate querying a database with sampled data given for the three exercises. For comprehensive organization of the code, please refer to [this Notion page](https://delirious-avocado-2be.notion.site/Junior-Business-Analyst-SQL-Test-using-R-405c29f2bed94060a8271452090d020c).
+
+We recommend that, in order to get fully acquainted with the main underlying blocks this simple yet rather effective approach; you check R for Data Science book, chapter on [databases](https://www.oreilly.com/library/view/r-for-data/9781492097396/ch21.html#databases-prerequisites).
+
+![image](https://github.com/ATB1999/SQL_R_JuniorBusinessAnalyst_Test/assets/112544311/ff96f878-9fb2-4536-8ef0-bbedb6abbc98)
 
 There are three questions:
 
