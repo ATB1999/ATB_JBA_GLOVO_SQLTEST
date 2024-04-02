@@ -1,4 +1,4 @@
-# Junior Business Analyst SQL Test for a Courier Service using R
+# Junior Business Analyst SQL Test for a Courier Service using R #
 SQL technical test for a Junior business Analyst position using R for SQL querying and replication.
 
 Using RStudio and built-in tools that can be easily ran on any person directory; we answer three technical questions regarding a technical test for SQL querying. There are three main reasons why, although we talk about SQL, we do not use pure-SQL tools and refer to RStudio.
@@ -16,7 +16,9 @@ In that sense, the approach is as follows:
 - If multiple nested queries are required, we guide our approach through R language and translate the query to SQL to have better guidance.
 - The final output is always an SQL query, although R is used to replicate in a real database querying context and to help create the SQL query per se.
 
-With that, we always get to the point in which we have an SQL query; but thanks to the power of RStudio, we make sure to double check the outputs and create an in-process database management system (dbms) to replicate querying a database with sampled data given for the three exercises. There are three questions:
+With that, we always get to the point in which we have an SQL query; but thanks to the power of RStudio, we make sure to double check the outputs and create an in-process database management system (dbms) to replicate querying a database with sampled data given for the three exercises. For comprehensive organization of the code, please refer to [this Notion page](https://delirious-avocado-2be.notion.site/Junior-Business-Analyst-SQL-Test-using-R-405c29f2bed94060a8271452090d020c).
+
+There are three questions:
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **1**. Let’s say you have two tables: orders and order_points.Create an SQL query that shows the distance between the courier starting position and the pickup point, as well as the distance between the pickup point and the delivery point. The orders table has 1M+ rows; here’s the first row:
