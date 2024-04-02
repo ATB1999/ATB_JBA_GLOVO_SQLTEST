@@ -1,4 +1,4 @@
-# Junior business Analyst SQL Test - Adrià Termes
+# Junior business Analyst SQL Test
 
 ## Preliminary Work: Importing Packages ------------------------------------
 
