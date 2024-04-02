@@ -5,9 +5,9 @@ Using RStudio and built-in tools that can be easily ran on any person directory;
 
 ![image](https://github.com/ATB1999/ATB_JBA_SQLTEST/assets/112544311/5a2e1194-4214-4e28-9909-3168b31c0ca7)
 
-1. RStudio is a one stop shop interface for data analysis: not only can we call SQL queries and retrieve data, but we can directly build plots, machine learning models and all steps of ETL pipelines without leaving the interface. Allso, we can replicate
-2. RStudio is a great troubleshooting tool: For complex SQL queries, R provides libraries translating with precision to SQL language, as it was built upon it. If the query is complex and you know R, you can do any SQL query.
-3. RStudio allows us to replicate production environments and querying, thanks to the seamless creations of in-process database management systems (DBMS) like DuckDB, which is the one we use in this specific setting.
+1. **RStudio is a one stop shop interface for data analysis**: not only can we call SQL queries and retrieve data, but we can directly build plots, machine learning models and all steps of ETL pipelines without leaving the interface. Allso, we can replicate
+2. **RStudio is a great troubleshooting tool**: For complex SQL queries, R provides libraries translating with precision to SQL language, as it was built upon it. If the query is complex and you know R, you can do any SQL query.
+3. **RStudio allows us to replicate production environments and querying**: thanks to the seamless creations of in-process database management systems (DBMS) like DuckDB, which is the one we use in this specific setting.
 
 In that sense, the approach, **which can be perfectly replicated in anyone's directory without the need of any additional file**, is as follows:
 
