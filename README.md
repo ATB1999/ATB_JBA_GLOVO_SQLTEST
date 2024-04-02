@@ -1,4 +1,4 @@
-# Adrià Termes - Junior Business Analyst SQL Test
+# Junior Business Analyst SQL Test for a Courier Service using R
 SQL technical test for a Junior business Analyst position using R for SQL querying and replication.
 
 Using RStudio and built-in tools that can be easily ran on any person directory; we answer three technical questions regarding a technical test for SQL querying. There are three main reasons why, although we talk about SQL, we do not use pure-SQL tools and refer to RStudio.
