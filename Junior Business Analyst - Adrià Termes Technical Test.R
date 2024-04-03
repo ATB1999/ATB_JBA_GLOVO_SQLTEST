@@ -3,9 +3,18 @@
 ## Preliminary Work: Importing Packages ------------------------------------
 
 
+#Installing the packages automatically if you do not have them
+for (lib in c("DBI", "duckdb", "dbplyr", "tidyverse")) {
+  if (!requireNamespace(lib, quietly = TRUE)) {
+    install.packages(lib)
+  }
+}
+
+#Loading them in our RStudio session
 library(DBI)
+library(duckdb) #We generally do not import it, as we will use it a few times and we use :: notation
 library(dbplyr)
-library(tidyverse)
+library(tidyverse) #Library for data manipulation and wrangling in R
 
 
 # Q1 ----------------------------------------------------------------------
